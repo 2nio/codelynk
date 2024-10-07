@@ -1,0 +1,205 @@
+.div_top {
+    height: 48px;
+    font-size: 28px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    width: 100vp;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 32px;
+    flex-wrap: wrap;
+}
+
+.div_containerRight {
+    display: flex;
+    justify-content: right;
+    width: 280px;
+}
+
+.div_containerLeft {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 280px;
+}
+
+.div_main {
+    overflow-y: scroll;
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100;
+    height: 85.8vh;
+    border-radius: 12px;
+    background-color: rgb(4, 4, 4);
+    padding: 16px;
+}
+
+.div_form input {
+    height: 40px;
+    margin-left: 24px;
+    width: 800px;
+    border-radius: 32px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: rgb(14, 14, 14);
+    color: aliceblue;
+    border: none;
+    outline: none;
+}
+
+.div_form input::placeholder {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.div_form input:hover {
+    background-color: rgb(12, 12, 12);
+}
+
+.div_form {
+    display: flex;
+    align-items: center;
+    background-color: rgb(14, 14, 14);
+    border-radius: 32px;
+}
+
+.div_form:hover {
+    background-color: rgb(12, 12, 12);
+}
+
+.div_form button {
+    height: 18px;
+    width: 46px;
+    border-radius: 32px;
+    font-size: 20px;
+    border-style: none;
+    margin-left: 8px;
+    font-weight: 300;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(240, 248, 255, 0.400);
+}
+
+.div_nodata {
+    font-size: 28px;
+    font-weight: 300;
+    color: rgba(240, 248, 255, 0.400);
+    display: flex;
+    margin: auto;
+}
+
+.div_image {
+    height: 336px;
+    width: 420px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_image img {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.div_userPf {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.div_bottomSide {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+}
+
+.div_compLikes {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.div_userImage {
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 16px;
+}
+
+.div_component {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    height: 380px;
+    width: 420px;
+    background-color: rgb(8, 8, 8);
+}
+
+.button_delete {
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 300;
+    background-color: #f62c3d6a;
+    color: aliceblue;
+}
+
+.button_edit {
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 300;
+    background-color: #2c69f655;
+    color: aliceblue;
+}
+
+.div_text {
+    overflow: hidden;
+    white-space: nowrap;
+    width: auto;
+    max-width: 320px;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 6px;
+}

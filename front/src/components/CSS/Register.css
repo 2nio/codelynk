@@ -1,0 +1,135 @@
+.Reg_div_parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Reg_div_containerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Reg_inputIcon {
+    padding: 16px;
+    color: rgb(120, 120, 120);
+}
+
+.Reg_div_code {
+    background-color: rgb(8, 8, 8);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 68%;
+}
+
+.Reg_code {
+    width: 880px;
+    height: 48vh;
+    display: flex;
+    margin: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+}
+
+.Reg_div_leftTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    margin-bottom: 24px;
+}
+
+.Reg_div_leftTitle p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 4px;
+}
+
+.Reg_div_main {
+    width: 32%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(4, 4, 4);
+}
+
+.Reg_div_main h3 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.Reg_div_form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Reg_div_input {
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    border-radius: 80px;
+}
+
+.Reg_div_input input {
+    height: 42px;
+    width: 400px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: rgb(14, 14, 14);
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: aliceblue;
+    border: none;
+    outline: none;
+}
+
+.Reg_div_form button {
+    width: 446px;
+    height: 42px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 100px;
+    border-style: none;
+    background-color: rgb(0, 118, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: aliceblue;
+    margin-top: 8px;
+}
+
+.Reg_div_form button:hover {
+    background-color: rgb(0, 112, 247);
+}
+
+.Reg_div_alrHaveAcc {
+    color: rgba(240, 248, 255, 0.69);
+    align-self: center;
+    margin-top: 12px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.Reg_div_alrHaveAcc:hover {
+    color: rgba(240, 248, 255, 0.863);
+}

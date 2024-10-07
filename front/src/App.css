@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+  background-color: rgb(8, 8, 8);
+  color: aliceblue;
+  font-family: 'Montserrat';
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0px;
+}
+
+*:not(span, pre, code, .view-line, div) {
+  font-family: 'Montserrat';
+}

@@ -1,0 +1,126 @@
+.CreateComp_div_rightSide {
+    background-color: none;
+    flex-direction: column;
+    display: flex;
+    width: 48vw;
+    margin: 16px;
+    border-radius: 8px;
+}
+
+.CreateComp_div_image {
+    background-color: #1E1E1E;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.CreateComp_input_title {
+    outline: none;
+    border: none;
+    margin: 16px 2px 8px 2px;
+    height: 40px;
+    background-color: #1E1E1E;
+    color: aliceblue;
+    font-family: 'Lexend';
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 8px;
+
+}
+
+.CreateComp_textarea_description {
+    outline: none;
+    border: none;
+    margin: 8px 2px 8px 2px;
+    height: 120px;
+    background-color: #1E1E1E;
+    color: aliceblue;
+    font-family: 'Lexend';
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 8px;
+    flex-grow: 1;
+    resize: none;
+}
+
+.CreateComp_button_post {
+    height: 42px;
+    width: 100%;
+    margin: 8px 2px 8px 2px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #2c69f6bf;
+    color: aliceblue;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 14px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreateComp_button_delete {
+    height: 42px;
+    width: 40%;
+    margin: 8px 2px 8px 2px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #424242;
+    color: aliceblue;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 14px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreateComp_button_post:hover {
+    background-color: #2c69f6af;
+}
+
+.CreateComp_div_post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreateComp_div_post p {
+    color: aliceblue;
+    margin-left: 24px;
+    background-color: rgb(181, 36, 36);
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.CreateComp_form_uploadImage {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreateComp_form_uploadImage img {
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.CreateComp_form_uploadImage:hover {
+    border: dashed 2px #424242;
+}

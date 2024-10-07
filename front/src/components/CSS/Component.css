@@ -1,0 +1,236 @@
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #16181b;
+    border-radius: 80px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #424242;
+}
+
+.Components_div_main {
+    overflow-y: scroll;
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100;
+    height: 85.8vh;
+    border-radius: 12px;
+    background-color: rgb(4, 4, 4);
+    padding: 16px;
+}
+
+.Component_div_code {
+    height: auto;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    width: 960px;
+    align-items: stretch;
+    height: 48vh;
+}
+
+.Component_div_codeMenu {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Component_div_codeMenu p {
+    margin: 0px;
+    font-weight: 200;
+}
+
+.Component_div_codeMenuRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Component_div_codeMenuRight p {
+    margin-right: 16px;
+}
+
+.Component_icon_copyCode:hover {
+    color: rgb(0, 118, 247);
+}
+
+.Component_icon_likeCode:hover {
+    color: rgb(181, 36, 36)
+}
+
+
+.Component_div_image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Component_div_image img {
+    border-radius: 8px;
+    height: 672px;
+    width: 840px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Component_div_rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 58%;
+}
+
+.Component_div_comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 32vh;
+    width: 40%;
+    background-color: #282C34;
+    border-radius: 8px;
+}
+
+.Component_div_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-height: 240px;
+    height: auto;
+    width: 650px;
+    background-color: #282C34;
+    border-radius: 8px
+}
+
+.Component_p_desc {
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 0 8px 0;
+    padding: 16px;
+    display: flex;
+    overflow: auto;
+}
+
+.Component_div_commentsMenu {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    background-color: #16181b;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.Component_div_commentsMenu p {
+    font-weight: 200;
+    margin: 0px;
+    padding: 12px;
+}
+
+.Component_div_postComment {
+    display: flex;
+    border-top-style: solid;
+    border-top-color: #424242;
+    border-width: 1px;
+}
+
+.Component_div_postComment input {
+    height: 24px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #282C34;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.Component_div_postComment button {
+    width: 72px;
+    border-bottom-right-radius: 10px;
+    border-style: none;
+    background-color: #282C34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.Component_div_postComment button:hover {
+    background-color: #23272e;
+}
+
+.Component_div_allComments {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.Component_div_userComment {
+    border-bottom-style: solid;
+    border-color: #424242;
+    border-width: 1px;
+    display: flex;
+    height: fit-content;
+    width: calc(100%-12px);
+    padding: 12px;
+}
+
+.Component_div_userPfp {
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+
+.Component_div_userComm {
+    font-weight: 200;
+}
+
+.Component_div_userNameComm {
+    width: 100%;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Component_button_deleteComment {
+    background-color: #282C34;
+    justify-self: center;
+    align-self: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.Component_button_deleteComment:hover {
+    background-color: #23272e;
+}
