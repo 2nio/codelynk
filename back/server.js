@@ -21,7 +21,7 @@ app.use(cors({
 app.use(express.json({ limit: '50mb' }))
 app.use(cookieParser())
 
-mongoose.connect('mongodb+srv://cereals:antoni85A@cluster0.uf79cow.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect(process.env.DB_URI)
 
 app.post('/register', Signup)
 app.post('/login', Login)
